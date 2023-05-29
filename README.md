@@ -1,3 +1,5 @@
+## [Switch to English](https://github.com/cuynu/v2rayvn/wiki/English)
+
 # v2rayNG Tiếng Việt / Vietnamese Language
 
 v2rayNG với ngôn ngữ Tiếng Việt! ,hỗ trợ [Xray core](https://github.com/XTLS/Xray-core) và [v2fly core](https://github.com/v2fly/v2ray-core)
