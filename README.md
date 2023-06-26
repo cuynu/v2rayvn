@@ -33,7 +33,7 @@ ____________________________________________________
 </a>
 
 ### Phiên bản thử nghiệm có thể có lỗi !
-[Tải xuống phiên bản thử nghiệm](https://github.com/cuynu/v2rayvn/releases/download/1.8%2C17-cuynu/v2rayNG_1.8.17-cuynu.apk)
+[Tải xuống phiên bản thử nghiệm](https://github.com/cuynu/v2rayvn/releases/download/1.8.17-cuynu/v2rayNG_1.8.17-cuynu.apk)
 
 **Từ phiên bản 1.7.4, Bản dịch Tiếng Việt của v2rayNG bởi Cuynu và [user09283](https://github.com/user09283)
  đã có sẵn trên [Google Play](https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.v2ray.ang&ddl=1&pcampaignid=web_ddl_1) dưới dạng phiên bản chính thức, tuy nhiên bạn vẫn có thể tải xuống APK bên trên nếu bạn không muốn tải xuống từ Google Play.** 
