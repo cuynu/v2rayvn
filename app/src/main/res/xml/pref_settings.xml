@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <SwitchPreferenceCompat
+    <CheckBoxPreference
             android:defaultValue="f"
             android:key="pref_speed_enabled"
             android:summary="@string/summary_pref_speed_enabled"
             android:title="@string/title_pref_speed_enabled" />
 
-    <SwitchPreferenceCompat
+    <CheckBoxPreference
             android:defaultValue="false"
             android:key="pref_sniffing_enabled"
             android:summary="@string/summary_pref_sniffing_enabled"
             android:title="@string/title_pref_sniffing_enabled" />
     <PreferenceCategory android:title="@string/title_mux_settings">
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:defaultValue="false"
             android:key="pref_mux_enabled"
             android:summary="@string/summary_pref_mux_enabled"
@@ -25,39 +25,39 @@
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/title_vpn_settings">
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_per_app_proxy"
             android:summary="@string/summary_pref_per_app_proxy"
             android:title="@string/title_pref_per_app_proxy" />
 
-        <SwitchPreferenceCompat
+        <EditTextPreference
             android:key="pref_vpn_dns"
             android:summary="@string/summary_pref_remote_dns"
             android:title="@string/title_pref_vpn_dns" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:defaultValue="true"
             android:key="pref_proxy_sharing_enabled"
             android:summary="@string/summary_pref_proxy_sharing_enabled"
             android:title="@string/title_pref_proxy_sharing_enabled" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_prefer_ipv6"
             android:summary="@string/summary_pref_prefer_ipv6"
             android:title="@string/title_pref_prefer_ipv6" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:defaultValue="false"
             android:key="pref_allow_insecure"
             android:summary="@string/summary_pref_allow_insecure"
             android:title="@string/title_pref_allow_insecure" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_local_dns_enabled"
             android:summary="@string/summary_pref_local_dns_enabled"
             android:title="@string/title_pref_local_dns_enabled" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_fake_dns_enabled"
             android:summary="@string/summary_pref_fake_dns_enabled"
             android:title="@string/title_pref_fake_dns_enabled" />
@@ -98,7 +98,7 @@
             android:summary="%s"
             android:title="@string/title_mode" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_start_scan_immediate"
             android:summary="@string/summary_pref_start_scan_immediate"
             android:title="@string/title_pref_start_scan_immediate" />
@@ -111,7 +111,7 @@
             android:summary="%s"
             android:title="@string/title_language" />
 
-        <SwitchPreferenceCompat
+        <CheckBoxPreference
             android:key="pref_confirm_remove"
             android:summary="@string/summary_pref_confirm_remove"
             android:title="@string/title_pref_confirm_remove" />

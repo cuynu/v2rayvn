@@ -10,14 +10,6 @@
             android:icon="@drawable/ic_settings_white_24dp"
             android:title="@string/title_settings" />
         <item
-        android:id="@+id/color_selector"
-        android:icon="@drawable/ic_color_selector"
-        android:title="@string/color_selector" />
-        <item
-            android:id="@+id/custom_snilogo"
-            android:icon="@drawable/custom_snilogo"
-            android:title="@string/sni_custom" />
-        <item
             android:id="@+id/sub_setting"
             android:icon="@drawable/ic_subscriptions_white_24dp"
             android:title="@string/title_sub_setting" />
