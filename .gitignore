@@ -1,5 +1,10 @@
-*.dat
-*.jks
-V2rayNG/app/release/output.json
-.idea/
-.gradle/
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+*.apk
+signing.properties
+*.aar
