@@ -7,6 +7,11 @@
     <string name="navigation_drawer_close">Đóng Menu ứng dụng</string>
     <string name="migration_success">Đã chuyển dữ liệu!</string>
     <string name="migration_fail">Không thể chuyển dữ liệu!</string>
+    <string name="view_source_code">Xem mã nguồn tại GitHub</string>
+    <string name="view_source_code_summary">Tôi luôn thích và mở mã nguồn ứng dụng này :3</string>
+    <string name="information">Giới thiệu về ứng dụng này</string>
+    <string name="donate_cuynu">Giúp tôi học code</string>
+    <string name="donate_cuynu_summary">Giúp tôi tìm hiểu và cải thiện chất lượng mã nguồn mở của ứng dụng này bằng cách đăng ký kênh YouTube cá nhân</string>
 
     <!-- Notifications -->
     <string name="notification_action_stop_v2ray">Ngắt kết nối v2rayNG</string>
@@ -152,7 +157,8 @@
 
     <string name="title_pref_feedback">Phản hồi lỗi</string>
     <string name="summary_pref_feedback">Phản hồi cải tiến hoặc lỗi lên GitHub</string>
-    <string name="summary_pref_tg_group">Tham gia nhóm Telegram</string>
+    <string name="summary_pref_tg_group">Tham gia nhóm YTVanced trên Telegram</string>
+    <string name="summary_pref_tg_group2">Tham gia để thử YouTube Vanced cũng như thảo luận với tôi!</string>
     <string name="toast_tg_app_not_found">Không tìm thấy ứng dụng Telegram</string>
 
     <string name="title_core_loglevel">Mức độ nhật ký</string>

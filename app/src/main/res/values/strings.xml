@@ -8,6 +8,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="migration_success">Data migration success!</string>
     <string name="migration_fail">Data migration failed!</string>
+    <string name="view_source_code">View source code in GitHub</string>
+    <string name="view_source_code_summary">I always love and open source this app :3 </string>
+    <string name="information">About this app</string>
+    <string name="donate_cuynu">Support me learn code</string>
+    <string name="donate_cuynu_summary">Support me learn and improve open source code quality by subscribe to personal YouTube channel</string>
 
     <!-- Notifications -->
     <string name="notification_action_stop_v2ray">Stop</string>
@@ -161,7 +166,8 @@
 
     <string name="title_pref_feedback">Feedback</string>
     <string name="summary_pref_feedback">Feedback enhancements or bugs to GitHub</string>
-    <string name="summary_pref_tg_group">Join Telegram Group</string>
+    <string name="summary_pref_tg_group">Join YTVanced Telegram Group</string>
+    <string name="summary_pref_tg_group2">Join to try YouTube Vanced and also discuss with me!</string>
     <string name="toast_tg_app_not_found">Telegram app not found</string>
 
 

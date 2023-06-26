@@ -24,6 +24,38 @@
             android:title="@string/title_pref_mux_concurrency" />
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/information">
+    <Preference
+        android:title="@string/view_source_code"
+        android:summary="@string/view_source_code_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/cuynu/v2rayvn"/>
+    </Preference>
+        <Preference
+            android:title="@string/title_pref_feedback"
+            android:summary="@string/summary_pref_feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/cuynu/v2rayvn/issues"/>
+        </Preference>
+        <Preference
+            android:title="@string/donate_cuynu"
+            android:summary="@string/donate_cuynu_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://m.youtube.com/@cuynu"/>
+        </Preference>
+        <Preference
+            android:title="@string/summary_pref_tg_group"
+            android:summary="@string/summary_pref_tg_group2">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ytvancedupdates"/>
+        </Preference>
+
+    </PreferenceCategory>
+
     <PreferenceCategory android:title="@string/title_vpn_settings">
         <CheckBoxPreference
             android:key="pref_per_app_proxy"
@@ -36,7 +68,7 @@
             android:title="@string/title_pref_vpn_dns" />
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="pref_proxy_sharing_enabled"
             android:summary="@string/summary_pref_proxy_sharing_enabled"
             android:title="@string/title_pref_proxy_sharing_enabled" />
