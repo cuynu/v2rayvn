@@ -49,7 +49,7 @@ object SpeedtestUtil {
             if (!TextUtils.isEmpty(allText)) {
                 val tempInfo = allText.substring(allText.indexOf("min/avg/max/mdev") + 19)
                 val temps = tempInfo.split("/".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-                if (temps.count() > 0 && temps[0].length < 10) {
+                if (temps.count() > 0 && temps[0].length < 9999) {
                     return temps[0].toFloat().toInt().toString() + "ms"
                 }
             }
