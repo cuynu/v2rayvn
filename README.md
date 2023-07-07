@@ -17,9 +17,9 @@ Thống kê số lần v2rayNG/v2flyNG Tiếng Việt được tải xuống
 
 Phiên bản APK đóng gói mới nhất : 1.8.5-cuynu
 
-Phiên bản thử nghiệm : 1.8.17-cuynu
+Phiên bản thử nghiệm : 1.8.18-cuynu
 
-Ngày cập nhật : (03:14 27/06/2023)
+Ngày cập nhật : (03:40 08/07/2023)
 
 Dịch Tiếng Việt bởi : Cuynu, [user09283](https://github.com/user09283)
 
