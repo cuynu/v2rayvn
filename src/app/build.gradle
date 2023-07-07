@@ -19,7 +19,7 @@ android {
         targetSdk 33
         multiDexEnabled true
         versionCode 524
-        versionName "1.8.16-cuynu"
+        versionName "1.8.18-cuynu"
     }
 
     buildTypes {
