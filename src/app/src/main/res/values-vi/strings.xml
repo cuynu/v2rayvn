@@ -100,7 +100,7 @@
 
     <string name="title_pref_mux_enabled">Cho phép Mux</string>
     <string name="summary_pref_mux_enabled">Bật lên có thể làm tăng tốc độ mạng và chuyển mạng nhanh hơn.</string>
-    <string name="title_pref_mux_concurrency">Số lượng concurrency mux</string>
+    <string name="title_pref_mux_concurrency">Mức concurrency mux</string>
     <string name="title_mux_settings">Tùy chọn Mux (Tăng tốc kết nối)</string>
 
     <string name="title_pref_speed_enabled">Cho phép hiển thị tốc độ mạng</string>
