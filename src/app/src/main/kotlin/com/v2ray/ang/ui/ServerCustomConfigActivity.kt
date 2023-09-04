@@ -5,6 +5,7 @@ import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.blacksquircle.ui.editorkit.utils.EditorTheme
 import androidx.appcompat.app.AlertDialog
 import com.blacksquircle.ui.language.json.JsonLanguage
 import com.google.gson.*
@@ -38,6 +39,7 @@ class ServerCustomConfigActivity : BaseActivity() {
         setContentView(view)
         title = getString(R.string.title_server)
 
+        binding.editor.colorScheme = EditorTheme.INTELLIJ_LIGHT
         binding.editor.language = JsonLanguage()
         val config = MmkvManager.decodeServerConfig(editGuid)
         if (config != null) {
