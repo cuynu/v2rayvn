@@ -216,6 +216,9 @@
     <string name="donate_cuynu_summary">Support me learn and improve open source code quality by subscribe to personal YouTube channel</string>
     <string name="summary_pref_tg_group2">Join to try YouTube Vanced and also discuss with me!</string>
     <string name="sub_auto_update">Auto update</string>
+    <string name="auto_update_title">Update your subscriptions automatically with an interval in background</string>
+    <string name="auto_update_title_summary">Automatic update subscriptions</string>
+    <string name="auto_update_interval">Subscription Update Interval (Minutes)</string>
 
 
     <string-array name="share_method">
