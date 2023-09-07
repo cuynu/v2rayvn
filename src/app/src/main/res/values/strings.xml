@@ -215,6 +215,8 @@
     <string name="donate_cuynu">Support me learn code</string>
     <string name="donate_cuynu_summary">Support me learn and improve open source code quality by subscribe to personal YouTube channel</string>
     <string name="summary_pref_tg_group2">Join to try YouTube Vanced and also discuss with me!</string>
+    <string name="sub_auto_update">Auto update</string>
+
 
     <string-array name="share_method">
         <item>QRcode</item>
