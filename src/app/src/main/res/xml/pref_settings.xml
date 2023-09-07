@@ -51,7 +51,7 @@
             android:summary="@string/summary_pref_tg_group2">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/ytvancedupdates"/>
+                android:data="https://t.me/ytvancedxupdates"/>
         </Preference>
     </PreferenceCategory>
 
