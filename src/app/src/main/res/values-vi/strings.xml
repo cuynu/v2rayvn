@@ -208,9 +208,9 @@
     <string name="donate_cuynu_summary">Giúp tôi tìm hiểu và cải thiện chất lượng mã nguồn mở của ứng dụng này bằng cách đăng ký kênh YouTube cá nhân</string>
     <string name="summary_pref_tg_group2">Tham gia để thử YouTube Vanced cũng như thảo luận với tôi!</string>
     <string name="sub_auto_update">Tự động cập nhật gói đăng ký</string>
-    <string name="auto_update_title">Tự động cập nhật gói đăng ký của bạn với khoảng thời gian được trong nền</string>
+    <string name="auto_update_title">Tự động cập nhật gói đăng ký của bạn với khoảng thời gian được chỉ định trong nền</string>
     <string name="auto_update_title_summary">Tự động cập nhật gói đăng ký</string>
-    <string name="auto_update_interval">Khoảng thời gian cập nhật gói đăng ký (Phút)</string>
+    <string name="auto_update_interval">Khoảng thời gian cập nhật gói đăng ký (Phút) (Mặc định : 1440 phút)</string>
 
     <string-array name="share_method">
         <item>Xuất ra mã QR (Chụp màn hình để lưu)</item>
