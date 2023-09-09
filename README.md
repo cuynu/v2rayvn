@@ -4,6 +4,9 @@
 
 v2rayNG với ngôn ngữ Tiếng Việt! ,hỗ trợ [Xray core](https://github.com/XTLS/Xray-core) và [v2fly core](https://github.com/v2fly/v2ray-core)
 
+# Telegram channel
+Tham gia kênh Telegram của chúng tôi </p> <a href="https://telegram.me/v2rayvnx" ><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=dark"></a> 
+
 Chất lượng mã nguồn (Source Code)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/cuynu/v2rayvn/badge)](https://www.codefactor.io/repository/github/cuynu/v2rayvn)
