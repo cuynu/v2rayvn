@@ -1,4 +1,4 @@
-## [Switch to English](https://github.com/cuynu/v2rayvn/wiki/English)
+# [Switch to English](https://github.com/cuynu/v2rayvn/wiki/English)
 
 # v2rayNG Tiếng Việt / Vietnamese Language
 
