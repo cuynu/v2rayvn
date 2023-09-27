@@ -4,6 +4,8 @@
 
 v2rayNG với ngôn ngữ Tiếng Việt! ,hỗ trợ [Xray core](https://github.com/XTLS/Xray-core) và [v2fly core](https://github.com/v2fly/v2ray-core)
 
+### [Ủng hộ dự án này](#donations)
+
 # Telegram channel
 Tham gia kênh Telegram của chúng tôi </p> <a href="https://telegram.me/v2rayvnx" ><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=dark"></a> 
 
@@ -64,4 +66,16 @@ ____________________________________________________
 ## Mã nguồn / Source code
 
 v2rayNG là ứng dụng "mã nguồn mở", bạn có thể tự tải xuống mã nguồn trên repository và chỉnh sửa bằng Gradle hay Android Studio theo ý của bạn theo giấy phép GPL-3.0.
+
+## Donations
+**Cảnh báo** : **VIỆC ỦNG HỘ LÀ KHÔNG BẮT BUỘC**, BẠN CÓ QUYỀN ỦNG HỘ HAY KHÔNG, ĐÓ LÀ QUYỀN CỦA BẠN! **KHÔNG TẠO DRAMA!**
+
+Bạn có thể sử dụng tính năng Super Thanks trên YouTube để ủng hộ tôi, hoặc chuyển khoản qua thông tin phía dưới.
+
+<a href="https://m.youtube.com/watch?v=0oClepts_2g">
+<img alt="YouTube Vanced+ logo" src="https://github.com/cuynu/cuynu/assets/90895715/ccbfec4a-a0e1-4509-8471-3368a4eed9b7" width="400" height="410" />
+</a>
+
+## Vietnam inland donation :
+**Chuyển khoản tới Momo & MB : 0395923562**
 
