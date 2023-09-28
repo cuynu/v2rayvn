@@ -73,7 +73,7 @@ v2rayNG là ứng dụng "mã nguồn mở", bạn có thể tự tải xuống 
 Bạn có thể sử dụng tính năng Super Thanks trên YouTube để ủng hộ tôi, hoặc chuyển khoản qua thông tin phía dưới.
 
 <a href="https://m.youtube.com/watch?v=0oClepts_2g">
-<img alt="YouTube Vanced+ logo" src="https://github.com/cuynu/cuynu/assets/90895715/ccbfec4a-a0e1-4509-8471-3368a4eed9b7" width="400" height="410" />
+<img alt="YouTube Vanced+ logo" src="https://github.com/cuynu/cuynu/assets/90895715/ccbfec4a-a0e1-4509-8471-3368a4eed9b7" width="300" height="300" />
 </a>
 
 ## Vietnam inland donation :
