@@ -3,13 +3,13 @@
     <color name="colorPing">#009966</color>
     <color name="colorPingRed">#FF0099</color>
     <color name="color_secondary">#727272</color>
-    <color name="colorSelected">#000000</color>
+    <color name="colorSelected">#FF0000</color>
     <color name="colorUnselected">#FFFFFF</color>
     <!--    <color name="colorPrimary">#008577</color>-->
     <!--    <color name="colorPrimaryDark">#00574B</color>-->
-    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#009966</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#000000</color>
     <color name="colorBg">#252525</color>
-    <color name="colorText">#CCCCCC</color>
+    <color name="colorText">#000000</color>
 </resources>
