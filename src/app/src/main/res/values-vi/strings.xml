@@ -204,13 +204,15 @@
     <string name="view_source_code">Xem mã nguồn tại GitHub</string>
     <string name="view_source_code_summary">Tôi luôn thích và mở mã nguồn ứng dụng này :3</string>
     <string name="information">Giới thiệu về ứng dụng này</string>
-    <string name="donate_cuynu">Giúp tôi học code</string>
-    <string name="donate_cuynu_summary">Giúp tôi tìm hiểu và cải thiện chất lượng mã nguồn mở của ứng dụng này bằng cách đăng ký kênh YouTube cá nhân</string>
-    <string name="summary_pref_tg_group2">Tham gia để thử YouTube Vanced cũng như thảo luận với tôi!</string>
+    <string name="donate_cuynu">Ủng hộ Cuynu</string>
+    <string name="donate_cuynu_summary">Giúp tôi tìm hiểu và cải thiện chất lượng mã nguồn mở của ứng dụng này bằng cách đóng góp một khoản tiền nhỏ</string>
     <string name="sub_auto_update">Tự động cập nhật gói đăng ký</string>
     <string name="auto_update_title">Tự động cập nhật gói đăng ký của bạn với khoảng thời gian được chỉ định trong nền</string>
     <string name="auto_update_title_summary">Tự động cập nhật gói đăng ký</string>
     <string name="auto_update_interval">Khoảng thời gian cập nhật gói đăng ký (Phút) (Mặc định : 1440 phút)</string>
+    <string name="build_information">Thông tin về bản dựng (build)</string>
+    <string name="app_version">Phiên bản ứng dụng</string>
+    <string name="notification_settings">Cài đặt thông báo</string>
 
     <string-array name="share_method">
         <item>Xuất ra mã QR (Chụp màn hình để lưu)</item>

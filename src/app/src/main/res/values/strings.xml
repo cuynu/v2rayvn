@@ -212,13 +212,15 @@
     <string name="view_source_code">View source code in GitHub</string>
     <string name="view_source_code_summary">I always love and open source this app :3 </string>
     <string name="information">About this app</string>
-    <string name="donate_cuynu">Support me learn code</string>
-    <string name="donate_cuynu_summary">Support me learn and improve open source code quality by subscribe to personal YouTube channel</string>
-    <string name="summary_pref_tg_group2">Join to try YouTube Vanced and also discuss with me!</string>
+    <string name="donate_cuynu">Support Cuynu</string>
+    <string name="donate_cuynu_summary">Support me learn and improve open source code quality by donate some little money</string>
     <string name="sub_auto_update">Auto update</string>
     <string name="auto_update_title">Update your subscriptions automatically with an interval in background</string>
     <string name="auto_update_title_summary">Automatic update subscriptions</string>
     <string name="auto_update_interval">Subscription Update Interval (Minutes)</string>
+    <string name="build_information">Build information</string>
+    <string name="app_version">app version</string>
+    <string name="notification_settings">Notification settings</string>
 
 
     <string-array name="share_method">
