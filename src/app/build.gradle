@@ -18,8 +18,8 @@ android {
         minSdkVersion 21
         targetSdk 33
         multiDexEnabled true
-        versionCode 530
-        versionName "1.8.21-cuynu"
+        versionCode 535
+        versionName "1.8.22-cuynu"
     }
 
     buildTypes {
