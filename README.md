@@ -1,5 +1,11 @@
 # [Switch to English](https://github.com/cuynu/v2rayvn/wiki/English)
 
+## GLOBAL
+## DUE TO STUPID 2FA AUTHENTICATION OF GITHUB, WE HAVE MIGRATED ALL PROJECT TO GITLAB, TO RECEIVE NEW UPDATES OR ANY CHANGES IN THE FUTURE, GO TO THIS : [GitLab cuynu/v2rayvn](https://gitlab.com/cuynu/v2rayvn)
+
+## VIETNAMESE
+## DO CHÍNH SÁCH BẮT BUỘC 2FA CỦA GITHUB, CHÚNG TÔI ĐÃ CHUYỂN MỌI DỰ ÁN QUA GITLAB. ĐỂ NHẬN CÁC CẬP NHẬT VÀ THAY ĐỔI TRONG TƯƠNG LAI, HÃY TRUY CẬP : [GitLab cuynu/v2rayvn](https://gitlab.com/cuynu/v2rayvn)
+
 # v2rayNG Tiếng Việt / Vietnamese Language
 
 v2rayNG với ngôn ngữ Tiếng Việt! ,hỗ trợ [Xray core](https://github.com/XTLS/Xray-core) và [v2fly core](https://github.com/v2fly/v2ray-core)
