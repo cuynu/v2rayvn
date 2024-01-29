@@ -173,10 +173,6 @@
             android:title="build branch (gitlab)"
             android:summary="put branch id here">
         </Preference>
-        <Preference
-            android:title="build branch (github)"
-            android:summary="put branch id here">
-        </Preference>
     </PreferenceCategory>
 
     </PreferenceCategory>
