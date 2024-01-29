@@ -161,7 +161,6 @@ class SettingsActivity : BaseActivity() {
                 updateMode(newValue.toString())
                 true
             }
-            mode?.dialogLayoutResource = R.layout.preference_with_help_link
             //loglevel.summary = "LogLevel"
         }
 

@@ -157,7 +157,6 @@
 
     <string name="title_core_loglevel">Mức độ nhật ký</string>
     <string name="title_mode">Chế độ kết nối</string>
-    <string name="title_mode_help">Nhấn vào đây nếu bạn cần trợ giúp</string>
     <string name="title_language">Ngôn ngữ</string>
 
     <string name="title_logcat">Nhật ký hoạt động</string>
