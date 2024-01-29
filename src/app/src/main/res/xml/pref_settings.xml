@@ -167,7 +167,7 @@
     <PreferenceCategory android:title="@string/build_information">
         <Preference
             android:title="@string/app_version"
-            android:summary="1.8.22-cuynu">
+            android:summary="1.8.23-cuynu">
         </Preference>
         <Preference
             android:title="build branch (gitlab)"
