@@ -160,7 +160,7 @@
     <string name="summary_pref_confirm_remove">Whether to delete the configuration file requires a second confirmation by the user</string>
 
     <string name="title_pref_feedback">Feedback</string>
-    <string name="summary_pref_feedback">Feedback enhancements or bugs to GitHub</string>
+    <string name="summary_pref_feedback">Feedback enhancements or bugs to GitLab</string>
     <string name="summary_pref_tg_group">Join Telegram Group</string>
     <string name="toast_tg_app_not_found">Telegram app not found</string>
 
@@ -209,7 +209,7 @@
     <string name="connection_connected">Connected, tap to check connection</string>
     <string name="connection_not_connected">Not connected</string>
 
-    <string name="view_source_code">View source code in GitHub</string>
+    <string name="view_source_code">View source code in GitLab</string>
     <string name="view_source_code_summary">I always love and open source this app :3 </string>
     <string name="information">About this app</string>
     <string name="donate_cuynu">Support Cuynu</string>
@@ -221,6 +221,8 @@
     <string name="build_information">Build information</string>
     <string name="app_version">app version</string>
     <string name="notification_settings">Notification settings</string>
+    <string name="enable_vpn_always_on">Enable VPN always on</string>
+    <string name="enable_vpn_always_on_summary">This will open your device settings!</string>
 
 
     <string-array name="share_method">

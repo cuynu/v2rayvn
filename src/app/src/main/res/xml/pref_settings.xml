@@ -6,6 +6,14 @@
             android:key="pref_speed_enabled"
             android:summary="@string/summary_pref_speed_enabled"
             android:title="@string/title_pref_speed_enabled" />
+        <Preference
+            android:title="@string/enable_vpn_always_on"
+            android:summary="@string/enable_vpn_always_on_summary" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.android.settings.Settings$VpnSettingsActivity"
+                android:targetPackage="com.android.settings" />
+        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/title_mux_settings">
@@ -38,6 +46,11 @@
 
     <PreferenceCategory android:title="@string/title_vpn_settings">
         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_allow_insecure"
+            android:summary="@string/summary_pref_allow_insecure"
+            android:title="@string/title_pref_allow_insecure" />
+        <CheckBoxPreference
         android:defaultValue="false"
         android:key="pref_sniffing_enabled"
         android:summary="@string/summary_pref_sniffing_enabled"
@@ -62,12 +75,6 @@
             android:key="pref_prefer_ipv6"
             android:summary="@string/summary_pref_prefer_ipv6"
             android:title="@string/title_pref_prefer_ipv6" />
-
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="pref_allow_insecure"
-            android:summary="@string/summary_pref_allow_insecure"
-            android:title="@string/title_pref_allow_insecure" />
 
         <CheckBoxPreference
             android:key="pref_local_dns_enabled"
@@ -139,14 +146,14 @@
                 android:summary="@string/view_source_code_summary">
                 <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/cuynu/v2rayvn"/>
+                    android:data="https://gitlab.com/cuynu/v2rayvn"/>
             </Preference>
             <Preference
                 android:title="@string/title_pref_feedback"
                 android:summary="@string/summary_pref_feedback">
                 <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/cuynu/v2rayvn/issues"/>
+                    android:data="https://gitlab.com/cuynu/v2rayvn/-/issues"/>
             </Preference>
             <Preference
                 android:title="@string/donate_cuynu"

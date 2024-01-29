@@ -151,7 +151,7 @@
     <string name="summary_pref_confirm_remove">Hiển thị thông báo xác nhận xoá cấu hình khi bạn xoá một cấu hình.</string>
 
     <string name="title_pref_feedback">Phản hồi lỗi</string>
-    <string name="summary_pref_feedback">Phản hồi cải tiến hoặc lỗi lên GitHub</string>
+    <string name="summary_pref_feedback">Phản hồi cải tiến hoặc lỗi lên GitLab</string>
     <string name="summary_pref_tg_group">Tham gia nhóm Telegram</string>
     <string name="toast_tg_app_not_found">Không tìm thấy ứng dụng Telegram</string>
 
@@ -201,7 +201,7 @@
     <string name="title_pref_start_scan_immediate">Bắt đầu quét mã QR ngay lập tức</string>
     <string name="summary_pref_start_scan_immediate">Mở giao diện quét mã QR ngay khi nhấn "Nhập cấu hình từ mã QR", hoặc thay vào đó bạn có thể chọn để mở camera hay chọn hình ảnh trên thanh công cụ.</string>
 
-    <string name="view_source_code">Xem mã nguồn tại GitHub</string>
+    <string name="view_source_code">Xem mã nguồn tại GitLab</string>
     <string name="view_source_code_summary">Tôi luôn thích và mở mã nguồn ứng dụng này :3</string>
     <string name="information">Giới thiệu về ứng dụng này</string>
     <string name="donate_cuynu">Ủng hộ Cuynu</string>
@@ -213,6 +213,8 @@
     <string name="build_information">Thông tin về bản dựng (build)</string>
     <string name="app_version">Phiên bản ứng dụng</string>
     <string name="notification_settings">Cài đặt thông báo</string>
+    <string name="enable_vpn_always_on">Bật chế độ VPN luôn bật</string>
+    <string name="enable_vpn_always_on_summary">Điều này sẽ mở cài đặt thiết bị!</string>
 
     <string-array name="share_method">
         <item>Xuất ra mã QR (Chụp màn hình để lưu)</item>
