@@ -222,6 +222,7 @@
     <string name="notification_settings">Notification settings</string>
     <string name="enable_vpn_always_on">Enable VPN always on</string>
     <string name="enable_vpn_always_on_summary">This will open your device settings!</string>
+    <string name="vpn_hotspot_root">Open VPN Hotspot (root)</string>
 
 
     <string-array name="share_method">
