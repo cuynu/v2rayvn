@@ -113,8 +113,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             RxPermissions(this)
                 .request(Manifest.permission.POST_NOTIFICATIONS)
                 .subscribe {
-                    if (!it)
-                        toast(R.string.toast_permission_denied)
                 }
         }
     }
