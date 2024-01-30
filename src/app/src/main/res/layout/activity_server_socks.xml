@@ -19,7 +19,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_server"
+                android:text="@string/warning_change_configuration"
+                android:textColor="#FF0000"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
         </LinearLayout>
 

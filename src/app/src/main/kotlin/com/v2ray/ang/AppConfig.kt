@@ -62,7 +62,6 @@ object AppConfig {
     const val androidpackagenamelistUrl = "https://raw.githubusercontent.com/2dust/androidpackagenamelist/master/proxy.txt"
     const val v2rayCustomRoutingListUrl = "https://raw.githubusercontent.com/2dust/v2rayCustomRoutingList/master/"
     const val v2rayNGIssues = "https://gitlab.com/cuynu/v2rayvn/issues"
-    const val v2rayNGWikiMode = "https://github.com/cuynu/v2rayvn/wiki/V%E1%BA%A5n-%C4%91%E1%BB%81-th%C6%B0%E1%BB%9Dng-g%E1%BA%B7p-tr%C3%AAn-v2rayNG"
     const val geoUrl = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/";
 
     const val DNS_AGENT = "8.8.8.8"

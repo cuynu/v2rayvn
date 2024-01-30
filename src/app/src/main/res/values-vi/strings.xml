@@ -215,6 +215,7 @@
     <string name="enable_vpn_always_on">Bật chế độ VPN luôn bật</string>
     <string name="enable_vpn_always_on_summary">Điều này sẽ mở cài đặt thiết bị!</string>
     <string name="vpn_hotspot_root">Mở VPN Hotspot (root)</string>
+    <string name="warning_change_configuration">Đảm bảo rằng cấu hình này đang không được sử dụng để có thể lưu thay đổi.</string>
 
     <string-array name="share_method">
         <item>Xuất ra mã QR (Chụp màn hình để lưu)</item>

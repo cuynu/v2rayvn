@@ -42,8 +42,6 @@ class SettingsActivity : BaseActivity() {
         private val fakeDns by lazy { findPreference<CheckBoxPreference>(AppConfig.PREF_FAKE_DNS_ENABLED) }
         private val localDnsPort by lazy { findPreference<EditTextPreference>(AppConfig.PREF_LOCAL_DNS_PORT) }
         private val vpnDns by lazy { findPreference<EditTextPreference>(AppConfig.PREF_VPN_DNS) }
-
-        //        val autoRestart by lazy { findPreference(PREF_AUTO_RESTART) as CheckBoxPreference }
         private val remoteDns by lazy { findPreference<EditTextPreference>(AppConfig.PREF_REMOTE_DNS) }
         private val domesticDns by lazy { findPreference<EditTextPreference>(AppConfig.PREF_DOMESTIC_DNS) }
         private val socksPort by lazy { findPreference<EditTextPreference>(AppConfig.PREF_SOCKS_PORT) }
@@ -51,9 +49,6 @@ class SettingsActivity : BaseActivity() {
         private val routingCustom by lazy { findPreference<Preference>(AppConfig.PREF_ROUTING_CUSTOM) }
         private val autoUpdateCheck by lazy { findPreference<CheckBoxPreference>(AppConfig.SUBSCRIPTION_AUTO_UPDATE) }
         private val autoUpdateInterval by lazy { findPreference<EditTextPreference>(AppConfig.SUBSCRIPTION_AUTO_UPDATE_INTERVAL) }
-        //        val licenses: Preference by lazy { findPreference(PREF_LICENSES) }
-//        val feedback: Preference by lazy { findPreference(PREF_FEEDBACK) }
-//        val tgGroup: Preference by lazy { findPreference(PREF_TG_GROUP) }
 
         private val mode by lazy { findPreference<ListPreference>(AppConfig.PREF_MODE) }
         private val muxConcurrency by lazy { findPreference<EditTextPreference>(AppConfig.PREF_MUX_CONCURRENCY) }
@@ -84,28 +79,6 @@ class SettingsActivity : BaseActivity() {
                 false
             }
 
-//            licenses.onClick {
-//                val fragment = LicensesDialogFragment.Builder(act)
-//                        .setNotices(R.raw.licenses)
-//                        .setIncludeOwnLicense(false)
-//                        .build()
-//                fragment.show((act as AppCompatActivity).supportFragmentManager, null)
-//            }
-//
-//            feedback.onClick {
-//                Utils.openUri(activity, "https://github.com/2dust/v2rayNG/issues")
-//            }
-//            tgGroup.onClick {
-//                //                Utils.openUri(activity, "https://t.me/v2rayN")
-//                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("tg:resolve?domain=v2rayN"))
-//                try {
-//                    startActivity(intent)
-//                } catch (e: Exception) {
-//                    e.printStackTrace()
-//                    toast(R.string.toast_tg_app_not_found)
-//                }
-//            }
-
             perAppProxy?.setOnPreferenceClickListener {
                 startActivity(Intent(activity, PerAppProxyActivity::class.java))
                 perAppProxy?.isChecked = true
@@ -127,7 +100,8 @@ class SettingsActivity : BaseActivity() {
 
             muxConcurrency?.setOnPreferenceChangeListener { _, any ->
                 val nval = any as String
-                muxConcurrency?.summary = if (TextUtils.isEmpty(nval)) AppConfig.MUX_CONCURRENCY else nval
+                muxConcurrency?.summary =
+                    if (TextUtils.isEmpty(nval)) AppConfig.MUX_CONCURRENCY else nval
                 true
             }
             localDns?.setOnPreferenceChangeListener { _, any ->
@@ -173,9 +147,14 @@ class SettingsActivity : BaseActivity() {
             domesticDns?.summary =
                 defaultSharedPreferences.getString(AppConfig.PREF_DOMESTIC_DNS, "")
 
-            localDnsPort?.summary = defaultSharedPreferences.getString(AppConfig.PREF_LOCAL_DNS_PORT, AppConfig.PORT_LOCAL_DNS)
-            socksPort?.summary = defaultSharedPreferences.getString(AppConfig.PREF_SOCKS_PORT, AppConfig.PORT_SOCKS)
-            httpPort?.summary = defaultSharedPreferences.getString(AppConfig.PREF_HTTP_PORT, AppConfig.PORT_HTTP)
+            localDnsPort?.summary = defaultSharedPreferences.getString(
+                AppConfig.PREF_LOCAL_DNS_PORT,
+                AppConfig.PORT_LOCAL_DNS
+            )
+            socksPort?.summary =
+                defaultSharedPreferences.getString(AppConfig.PREF_SOCKS_PORT, AppConfig.PORT_SOCKS)
+            httpPort?.summary =
+                defaultSharedPreferences.getString(AppConfig.PREF_HTTP_PORT, AppConfig.PORT_HTTP)
             localDnsPort?.summary = defaultSharedPreferences.getString(
                 AppConfig.PREF_LOCAL_DNS_PORT,
                 AppConfig.PORT_LOCAL_DNS
@@ -265,9 +244,5 @@ class SettingsActivity : BaseActivity() {
             val rw = RemoteWorkManager.getInstance(AngApplication.application)
             rw.cancelUniqueWork(AppConfig.UPDATE_TASK_NAME)
         }
-    }
-
-    fun onModeHelpClicked(view: View) {
-        Utils.openUri(this, AppConfig.v2rayNGWikiMode)
     }
 }

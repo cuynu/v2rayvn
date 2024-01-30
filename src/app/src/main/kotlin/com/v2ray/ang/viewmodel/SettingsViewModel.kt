@@ -9,6 +9,7 @@ import com.tencent.mmkv.MMKV
 import com.v2ray.ang.AppConfig
 import com.v2ray.ang.util.MmkvManager
 
+@Suppress("DUPLICATE_LABEL_IN_WHEN")
 class SettingsViewModel(application: Application) : AndroidViewModel(application), SharedPreferences.OnSharedPreferenceChangeListener {
 
     private val settingsStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_SETTING, MMKV.MULTI_PROCESS_MODE) }
@@ -57,6 +58,9 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
                 settingsStorage?.encode(key, sharedPreferences.getBoolean(key, false))
             }
             AppConfig.PREF_SNIFFING_ENABLED -> {
+                settingsStorage?.encode(key, sharedPreferences.getBoolean(key, true))
+            }
+            AppConfig.PREF_CONFIRM_REMOVE -> {
                 settingsStorage?.encode(key, sharedPreferences.getBoolean(key, true))
             }
             AppConfig.PREF_PER_APP_PROXY_SET -> {
