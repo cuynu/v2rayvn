@@ -635,6 +635,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
 
     @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
+        super.onBackPressed()
         if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
             binding.drawerLayout.closeDrawer(GravityCompat.START)
         } else {
@@ -663,6 +664,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 toast(getString(R.string.opening_browser))
             }
             R.id.logcat -> {
+                toast(getString(R.string.logcat_warning))
                 startActivity(Intent(this, LogcatActivity::class.java))
             }
             R.id.vpnhotspot -> {

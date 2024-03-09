@@ -20,6 +20,7 @@
     <string name="vpnhotspot_need_installed">Đang mở ứng dụng VPN Hotspot...</string>
     <string name="opening_browser">Đang mở trong trình duyệt...</string>
     <string name="subscription_warning">Cẩn thận với các trang cung cấp gói đăng ký độc hại hoặc lừa đảo!</string>
+    <string name="logcat_warning">Không chia sẻ nhật ký hoạt động với người không đáng tin cậy để đảm bảo an toàn!</string>
 
     <!--ServerActivity-->
     <string name="title_server">V2RayNG</string>

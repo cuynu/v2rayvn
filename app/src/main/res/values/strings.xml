@@ -21,6 +21,7 @@
     <string name="vpnhotspot_need_installed">Opening VPN Hotspot app...</string>
     <string name="opening_browser">Opening on default browser...</string>
     <string name="subscription_warning">Carefully with malicious or scam subscription site!</string>
+    <string name="logcat_warning">Logcat should\'t be shared to untrusted peoples!</string>
 
     <!--ServerActivity-->
     <string name="title_server">Configuration file</string>
