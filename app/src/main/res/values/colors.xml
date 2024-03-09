@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPing">#FB7279</color>
+    <color name="colorPingRed">#FF0099</color>
+    <color name="color_secondary">#727272</color>
+    <color name="colorSelected">#FB7299</color>
+    <color name="colorUnselected">#727272</color>
+    <!--    <color name="colorPrimary">#008577</color>-->
+    <!--    <color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimary">#FB7299</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FB7279</color>
+    <color name="colorBg">#000000</color>
+    <color name="colorText">#000000</color>
+</resources>
